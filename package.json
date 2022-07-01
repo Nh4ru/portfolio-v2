@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-v2",
+  "version": "1.0.0",
+  "description": "Revoir le responsive avec les grid et flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nh4ru/portfolio-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nh4ru/portfolio-v2/issues"
+  },
+  "homepage": "https://github.com/Nh4ru/portfolio-v2#readme",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
