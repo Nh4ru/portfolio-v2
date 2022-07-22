@@ -15,7 +15,7 @@ body .nav #nav-cta:checked + aside {
   left: -50px;
 }
 body .nav #nav-cta:checked + aside .nav__container-cta {
-  left: 270px;
+  left: 256px;
 }
 body .nav #nav-cta:checked + aside .nav__container-cta span {
   background-color: white;
@@ -36,8 +36,8 @@ body .nav__container-cta {
   position: absolute;
   border-radius: 100px;
   cursor: pointer;
-  left: 338px;
-  top: 48px;
+  left: 400px;
+  top: 44px;
   transition: left 0.3s ease-in-out;
 }
 body .nav__container-cta span,
@@ -66,30 +66,31 @@ body .nav__container-cta span:after {
 body .nav__container {
   position: fixed;
   z-index: 99;
-  left: -320px;
+  left: -390px;
   top: -30px;
   background-color: rgb(73, 19, 73);
   width: 100%;
-  height: 150%;
+  height: 105vh;
   box-sizing: border-box;
-  padding-top: 140px;
+  padding-top: 100px;
   transition: left 0.3s ease-in-out;
 }
 body .nav__container--items {
-  margin: 0;
-  padding: 0;
-  padding-top: 20px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 body .nav__container--items-btn {
   list-style: none;
-  padding-bottom: 16px;
-  margin-right: 38px;
-  text-align: right;
+  text-align: center;
   transition: all 0.15s cubic-bezier(0.35, 0.82, 0.4, 1.68);
   cursor: pointer;
+  padding-left: 12vw;
 }
 body .nav__container--items-btn img {
-  width: 68%;
+  width: 90%;
 }
 body .nav__container--items-btn:hover {
   padding-right: 35px;
@@ -97,6 +98,7 @@ body .nav__container--items-btn:hover {
 }
 body .acceuil {
   width: 100%;
+  height: 160vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -118,11 +120,11 @@ body .acceuil__video {
 }
 body .acceuil__scroll {
   position: relative;
-  height: 10vh;
-  width: 30vh;
-  left: 0;
+  height: 12vh;
+  width: 60vw;
+  left: 12vw;
   right: 0;
-  top: 4vh;
+  top: 6vh;
   margin: auto;
   z-index: 1;
   animation: floating 6s alternate infinite;
